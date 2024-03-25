@@ -1,0 +1,85 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1440px;
+  height: 120px;
+  position: relative;
+  margin: 0 auto;
+  background-color: #fff;
+
+  padding: 0 5rem;
+}
+
+/* nav::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 1px;
+
+  top: 100%;
+  border-bottom: 1px solid black;
+} */
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  padding: 1rem 1.5rem;
+  transition: all 0.3s ease;
+  border-radius: 3.2rem;
+  cursor: pointer;
+}
+
+nav ul li:hover {
+  background-color: #f1f1fd;
+}
+
+nav ul li a {
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  color: rgba(32, 33, 66, 0.5);
+  transition: all 0.3s ease;
+}
+
+nav ul li:hover a {
+  color: var(--main-color);
+}
+
+nav ul li.active {
+    background-color: #f1f1fd;
+  }
+  
+  nav ul li.active a {
+    color: var(--main-color);
+  }
+  
+
+.log-in-sign-up-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.8rem;
+
+}
+
+.log-in-sign-up-container button{
+    background-color: none;
+    font-size: var(--font-size-sm);
+    border: none;
+    border-radius: 1rem;
+    font-weight: 600;
+    
+}
+
+.log-in-btn{
+    background-color: transparent;
+}
+
+.sign-up-btn{
+    background-color: #202142;
+    color: #fff;
+    padding: 1.5rem 3rem;
+}

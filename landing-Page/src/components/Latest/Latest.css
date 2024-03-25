@@ -1,0 +1,142 @@
+section {
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding-block: 4rem;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+}
+
+.top-section-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5rem;
+}
+
+.left-section {
+  background-color: #fcfcff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #efefff;
+  border-radius: 7rem;
+  padding: 0.5rem;
+}
+
+.left-section .latest {
+  background-color: #fff;
+  padding: 1.5rem 3rem;
+  border-radius: 4.5rem;
+  box-shadow: 0 10px 15px -10px rgba(2, 5, 132, 0.05);
+  border: 1px solid #efefff;
+}
+
+.left-section .popular {
+  padding: 1.5rem 3rem;
+  color: rgba(32, 33, 66, 0.5);
+}
+
+.middle-section {
+  display: flex;
+  align-items: center;
+}
+
+.middle-section li {
+  padding: 1rem 1.5rem;
+  transition: all 0.3s ease;
+  border-radius: 3.2rem;
+  cursor: pointer;
+}
+
+.middle-section li:hover {
+  background-color: #fcfcff;
+}
+
+.middle-section li a {
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  color: rgba(32, 33, 66, 0.5);
+  transition: all 0.3s ease;
+}
+
+.middle-section li:hover a {
+  color: var(--main-color);
+}
+
+.middle-section li.active {
+  background-color: #fcfcff;
+  border: 1px solid #efefff;
+}
+
+.middle-section li.active a {
+  color: var(--main-color);
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 61px;
+  gap: 1.5rem;
+}
+
+.img-wrapper {
+  background-color: #fcfcff;
+  border: 1px solid #efefff;
+  border-radius: 50%;
+  width: 61px;
+  height: 61px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.img-wrapper.active {
+  border: 1px solid #ff6a95;
+}
+
+.bottom-section-main {
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-top: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+ 
+}
+.bottom-section-main p, strong{
+    color: #000;
+    font-size: var(--font-size-xsm);
+}
+
+.text-project {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+  
+}
+
+.text-project .text-icon,
+.text-project .left-box,
+.text-project .box {
+  display: flex;
+  align-items: center;
+}
+
+.text-project .left-box {
+  gap: 1.5rem;
+}
+
+.box:first-child {
+  padding-right: 1rem;
+}
+
+.box p {
+  padding-left: 0.5rem;
+}
